@@ -217,6 +217,7 @@ a {
 .elegirnos {
     display: flex;
     flex-direction: column;
+    text-align: center;
     /* align-items: center; */
     background-color: beige;
 
@@ -510,6 +511,12 @@ a {
 
 
 /* --- SEPARADOR NOSOTROS --- */
+
+
+article{
+    border: 2px solid black;
+}
+
 
 .nosotros {
     width: 100%;
