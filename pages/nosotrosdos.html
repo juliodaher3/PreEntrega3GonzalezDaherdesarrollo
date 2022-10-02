@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Random Cafe</title>
 </head>
@@ -15,30 +16,28 @@
 
     <!-- SECCION HEADER -->
 
-<main>
+    <main>
 
-    <header class="header-dos">
+        <header class="header-dos">
 
-        <div class="header__logo">
-            <a href="../index.html"> <img src="../assets/coffee-shop.png" alt="Logo de The Coffee Shop"></a>
+            <div class="header__logo">
+                <a href="../index.html"> <img src="../assets/coffee-shop.png" alt="Logo de The Coffee Shop"></a>
 
-            <h1 class="header__title"> <a href="../index.html"> THE COFFEE SHOP </a> </h1>
+                <h1 class="header__title"> <a href="../index.html"> THE COFFEE SHOP </a> </h1>
 
-        </div>
-        <nav class="header__nav">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/menu.html">Menu</a></li>
-                <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-                <li><a href="../pages/redes.html">Redes Sociales</a></li>
-            </ul>
-        </nav>
-    </header>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/menu.html">Menu</a></li>
+                    <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
+                    <li><a href="../pages/redes.html">Redes Sociales</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- FIN SECCION HEADER -->
-
-
+        <!-- FIN SECCION HEADER -->
 
 
 
@@ -46,56 +45,87 @@
 
 
 
-<!-- <div class="container-fluid rojo">
+
+
+        <!-- <div class="container-fluid rojo">
     Soy un container fluid
 </div> -->
 
-<main>
+        <main>
 
-<div class="container nos-article">
-    
-
-
-<h2>NUESTRA HISTORIA</h2>
-
-<div class="row">
-
-    <article class="col-8">
-        <h3>Articulo 1</h3>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis et tempora, doloremque ipsam qui commodi aperiam nisi totam nam, accusamus rem ipsa architecto laboriosam maxime assumenda temporibus, quisquam deleniti officia?
-        </p>
-    
-    </article>
-
-    <article class="col">
-        <h3>Articulo 1</h3>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis et tempora, doloremque ipsam qui commodi aperiam nisi totam nam, accusamus rem ipsa architecto laboriosam maxime assumenda temporibus, quisquam deleniti officia?
-        </p>
-    
-    </article>
-
-    <article class="col">
-        <h3>Articulo 1</h3>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis et tempora, doloremque ipsam qui commodi aperiam nisi totam nam, accusamus rem ipsa architecto laboriosam maxime assumenda temporibus, quisquam deleniti officia?
-        </p>
-    
-    </article>
-            
-
-
-</div>
+            <div class="container nos-article">
 
 
 
+                <h2>NUESTRA HISTORIA</h2>
 
+                <div class="row">
+
+                    <article class="col-12 col-md-6">
+                        <h3>Articulo 1</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis et tempora, doloremque
+                            ipsam qui commodi aperiam nisi totam nam, accusamus rem ipsa architecto laboriosam maxime
+                            assumenda temporibus, quisquam deleniti officia?
+                        </p>
+
+                    </article>
+
+                    <article class="col col-md-6">
+                        <h3>Articulo 1</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis et tempora, doloremque
+                            ipsam qui commodi aperiam nisi totam nam, accusamus rem ipsa architecto laboriosam maxime
+                            assumenda temporibus, quisquam deleniti officia?
+                        </p>
+
+                    </article>
+
+                    <article class="col">
+                        <h3>Articulo 1</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis et tempora, doloremque
+                            ipsam qui commodi aperiam nisi totam nam, accusamus rem ipsa architecto laboriosam maxime
+                            assumenda temporibus, quisquam deleniti officia?
+                        </p>
+
+                    </article>
 
 
 
 
 
+                    <div id="carouselnosotros" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assets/cafeteria.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/encuentro.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assets/mozo.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselnosotros"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselnosotros"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+
+
+
+
+
+                </div>
 
 
 
@@ -105,53 +135,70 @@
 
 
 
- 
-</main>
-    <!--  SECCION FOOTER -->
 
 
 
 
 
 
-    <footer class="footer">
 
 
 
-        <div>
-            <img class="footer__logo" src="../assets/coffee-shop.png" alt="Logo de The Coffee House">
-        </div>
 
-        <div class="footer__info">
-
-            <h4>Vei</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum deserunt eum delectus</p>
-        </div>
-
-        <div class="footer__contact__info">
-            <h4>Info de Contacto</h4>
-            <br>
-            <ul>
-                <li>Mail: info@randomcafe.com.ar </li>
-                <li>Tel: 4520-5648</li>
-                <li>Sarmiento 700, Balvanera, CABA</li>
-                <li><a href="../pages/contacto.html" class="footer__boton__form"> Formulario de Contacto </a></li>
-            </ul>
-        </div>
-
-
-        <div>
-            <iframe class="footer__maps"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3145784760914!2d-58.47828238439756!3d-34.545589680474734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb697e8e4140f%3A0xb6fd5e70a77da8e4!2sPlus%20Ultra%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1661818295895!5m2!1ses-419!2sar"
-                width="300px" height="200px" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        </main>
+        <!--  SECCION FOOTER -->
 
 
 
-    </footer>
 
-    <script src="./js/bootstrap.bundle.min.js"></script>
+
+
+        <footer class="footer">
+
+
+
+            <div>
+                <img class="footer__logo" src="../assets/coffee-shop.png" alt="Logo de The Coffee House">
+            </div>
+
+            <div class="footer__info">
+
+                <h4>Vei</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum deserunt eum delectus</p>
+            </div>
+
+            <div class="footer__contact__info">
+                <h4>Info de Contacto</h4>
+                <br>
+                <ul>
+                    <li>Mail: info@randomcafe.com.ar </li>
+                    <li>Tel: 4520-5648</li>
+                    <li>Sarmiento 700, Balvanera, CABA</li>
+                    <li><a href="../pages/contacto.html" class="footer__boton__form"> Formulario de Contacto </a></li>
+                </ul>
+            </div>
+
+
+            <div>
+                <iframe class="footer__maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3145784760914!2d-58.47828238439756!3d-34.545589680474734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb697e8e4140f%3A0xb6fd5e70a77da8e4!2sPlus%20Ultra%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1661818295895!5m2!1ses-419!2sar"
+                    width="300px" height="200px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+
+        </footer>
+
+
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <script src="../js/bootstrap.bundle.min.js"></script>
 
 </body>
 
