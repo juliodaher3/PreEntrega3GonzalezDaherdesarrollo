@@ -273,7 +273,7 @@ a {
 
 /* --- FIN SEPARADOR ELEGIRNOS --- */
 
-/* .footer {
+/* /* .footer {
     
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgb(220, 183, 104) 100%);
@@ -295,59 +295,63 @@ a {
 
 .footer {
 
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: wrap; */
+    
+    /* justify-content: space-around; */
+    
+    align-content: center;
+    align-items: center;
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgb(220, 183, 104) 100%);
 
 }
 
 
-.footer div {
+
+/* .footer div {
     width: 175px;
     height: 200px;
-    /* border: black solid 2px; */
     justify-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} */
 
-.footer__contact__info {
+/* .footer__contact__info {
 
     text-align: left;
-}
+} */
 
-.footer__info {
+/* .footer__info {
     text-align: left;
 
-}
+} */
 
-.footer__info h4 {
+/* .footer__info h4 {
     padding: 10px;
     text-align: center;
-}
+} */
 
-.footer__contact__info h4 {
+/* .footer__contact__info h4 {
     padding: 10px;
     text-align: center;
-}
+} */
 
-.footer__maps {
+/* .footer__maps {
     overflow: auto;
     overflow-y: auto;
     border-radius: 15px;
     height: 100%;
     width: 100%;
-}
+} */
 
-.footer__logo {
+/* .footer__logo {
     width: 120px;
     height: 120px;
-}
+} */
 
 
 
@@ -365,17 +369,18 @@ a {
 }
 
 
-@media (min-width: 768px) {
+
+/* @media (min-width: 768px) {
 
     .footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-    }
+    } */
 
 
-}
+
 
 
 
@@ -412,7 +417,7 @@ a {
 .redes__contenedor {
     display: flex;
     flex-direction: column;
-    /* border: violet 5px solid; */
+   
 
     justify-content: center;
     align-items: center;
@@ -422,7 +427,7 @@ a {
 }
 
 .redes__tarjeta{
-    /* border: blue solid 3px; */
+    
     display: flex;
     flex-direction: column;
 
@@ -430,7 +435,7 @@ a {
     border-radius: 15px;
     
     width: 200px;
-    /* height: 300px; */
+    
 
 
 }
@@ -445,7 +450,7 @@ a {
 .redes__boton{
     
     padding: 13px 8px;
-    /* border: 2px solid black; */
+    
     text-align: center;
     color: black;
     border-radius: 20px;
@@ -460,7 +465,7 @@ a {
 
 .redes__boton:hover{
     color: #694f3d;
-    /* color: rgba(218, 165, 32, 0.697); */
+    
     transition-property: all;
     transition-duration: 150ms;
     transform: scale(1.2);
@@ -481,7 +486,7 @@ a {
     }
 
     .redes__tarjeta{
-        /* border: blue solid 3px; */
+        
         display: flex;
         flex-direction: column;
     
@@ -518,7 +523,7 @@ article{
 }
 
 
-.nosotros {
+/* .nosotros {
     width: 100%;
     display: flex;
     
@@ -530,9 +535,9 @@ article{
   
 
 
-}
+} */
 
-.nosotros__video{
+/* .nosotros__video{
     display: flex;
     
     justify-content: center;
@@ -551,8 +556,6 @@ article{
     overflow-y: scroll;
     height: 400px;
     width: 300px;
-    
-    /* border: black solid 2px; */
 
     box-shadow: 0 0 10px;
     border-radius: 20px;
@@ -626,7 +629,7 @@ article{
 
 
 }
-
+ */
 
 
 
