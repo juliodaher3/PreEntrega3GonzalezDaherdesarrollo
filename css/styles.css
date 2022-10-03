@@ -301,12 +301,15 @@ a {
     
     /* justify-content: space-around; */
     
-    align-content: center;
-    align-items: center;
+    /* align-content: center;
+    align-items: center; */
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgb(220, 183, 104) 100%);
 
 }
+
+
+
 
 
 
