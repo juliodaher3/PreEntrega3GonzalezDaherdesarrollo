@@ -27,7 +27,6 @@ a {
 .header-dos {
     background-color: rgba(218, 165, 32, 0.697);
     padding: 15px;
-    /* position: absolute; */
     width: 100vw;
 }
 
@@ -59,20 +58,20 @@ a {
     transform: scale(1.2);
 }
 
-.header__nav {
+/* .header__nav {
     display: flex;
     flex-direction: row;
 
-}
+} */
 
-.header__nav ul {
+/* .header__nav ul {
     display: grid;
     width: 100vw;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: large;
-    /* padding: 20px; */
+    
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: repeat(2, auto);
     grid-template-areas:
@@ -80,7 +79,7 @@ a {
         "Inicio Menu Nosotros"
         "Contacto Redes Sociales"
     ;
-}
+} */
 
 
 
@@ -303,15 +302,35 @@ a {
     
     /* align-content: center;
     align-items: center; */
+    
+    /* padding: 50px;
+    gap: 10px;
+     */
+    /* background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgb(220, 183, 104) 100%); */
+
+}
+
+.bg-cremaradiante{
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgb(220, 183, 104) 100%);
+}
 
+
+.footer__boton__form {
+    color: #694f3d;
+    
+    font-weight: bold;
+    text-decoration: underline;
+    transition-property: all;
+    transition-duration: 350ms;
 }
 
 
 
-
-
+.footer__boton__form:hover {
+    color: goldenrod;
+}
 
 /* .footer div {
     width: 175px;
@@ -358,18 +377,7 @@ a {
 
 
 
-.footer__boton__form {
-    color: #694f3d;
-    
-    font-weight: bold;
-    text-decoration: underline;
-    transition-property: all;
-    transition-duration: 350ms;
-}
 
-.footer__boton__form:hover {
-    color: goldenrod;
-}
 
 
 
@@ -525,6 +533,21 @@ article{
     border: 2px solid black;
 }
 
+.nos-article{
+    padding: 30px;
+}
+
+.nos-tarjeta{
+    padding: 40px;
+    
+}
+
+.nos-contenedor{
+gap: 10px;
+align-content: center;
+justify-content: center;
+}
+
 
 /* .nosotros {
     width: 100%;
@@ -605,33 +628,10 @@ article{
     
     }
 
-    .nosotros__article{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        
-        justify-content: center;
-        height: 400px;
-        width: 300px;
-        
-        /* border: black solid 2px; */
-        border-radius: 20px; 
-    }
+
 
     
-    .nosotros__video iframe{
-        display: flex;
-        
-        justify-content: center;
-        
-        height: 400px;
-        width: 700px;
-        padding-bottom: 50px;
-    }
 
-
-
-}
  */
 
 
