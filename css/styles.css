@@ -58,50 +58,7 @@ a {
     transform: scale(1.2);
 }
 
-/* .header__nav {
-    display: flex;
-    flex-direction: row;
 
-} */
-
-/* .header__nav ul {
-    display: grid;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: large;
-    
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: repeat(2, auto);
-    grid-template-areas:
-
-        "Inicio Menu Nosotros"
-        "Contacto Redes Sociales"
-    ;
-} */
-
-
-
-/* .footer {
-    
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgb(220, 183, 104) 100%);
-    display: grid;
-    width: 100vw;
-    justify-content: center;
-    justify-items: center;
-
-    padding: 20px;
-
-    grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(2,auto);
-
-    grid-template-areas: 
-    "footer__logo footer__info"
-    "footer__contact__info footer__maps";
-
-} */
 
 .header__nav a {
     font-weight: inherit;
@@ -250,37 +207,11 @@ a {
         justify-content: space-around;
 
     }
-
-
-
 }
-
-
-
-
 
 
 /* --- FIN SEPARADOR ELEGIRNOS --- */
 
-/* /* .footer {
-    
-    background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgb(220, 183, 104) 100%);
-    display: grid;
-    width: 100vw;
-    justify-content: center;
-    justify-items: center;
-
-    padding: 20px;
-
-    grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(2, auto);
-
-    grid-template-areas:
-        "footer__logo footer__info"
-        "footer__contact__info footer__maps";
-
-} */
 
 
 
@@ -299,81 +230,15 @@ a {
 
 .footer__boton__form {
     color: #694f3d;
-    
     font-weight: bold;
     text-decoration: underline;
     transition-property: all;
     transition-duration: 350ms;
 }
 
-
-
 .footer__boton__form:hover {
     color: goldenrod;
 }
-
-/* .footer div {
-    width: 175px;
-    height: 200px;
-    justify-items: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
-
-/* .footer__contact__info {
-
-    text-align: left;
-} */
-
-/* .footer__info {
-    text-align: left;
-
-} */
-
-/* .footer__info h4 {
-    padding: 10px;
-    text-align: center;
-} */
-
-/* .footer__contact__info h4 {
-    padding: 10px;
-    text-align: center;
-} */
-
-/* .footer__maps {
-    overflow: auto;
-    overflow-y: auto;
-    border-radius: 15px;
-    height: 100%;
-    width: 100%;
-} */
-
-/* .footer__logo {
-    width: 120px;
-    height: 120px;
-} */
-
-
-
-
-
-
-
-/* @media (min-width: 768px) {
-
-    .footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    } */
-
-
-
-
-
 
 
 
@@ -408,8 +273,6 @@ a {
 .redes__contenedor {
     display: flex;
     flex-direction: column;
-   
-
     justify-content: center;
     align-items: center;
     padding-top: 40px;
@@ -421,14 +284,10 @@ a {
     
     display: flex;
     flex-direction: column;
-
     box-shadow: 0 0 10px;
     border-radius: 15px;
-    
     width: 200px;
     
-
-
 }
 
 .redes__img {
@@ -440,30 +299,21 @@ a {
 
 .redes__boton{
     
-    padding: 13px 8px;
-    
+    padding: 13px 8px;  
     text-align: center;
     color: black;
     border-radius: 20px;
     font-weight: 600;
 
-    
-    
-    
-    
-
 }
 
 .redes__boton:hover{
-    color: #694f3d;
-    
+    color: #694f3d;    
     transition-property: all;
     transition-duration: 150ms;
     transform: scale(1.2);
     font-weight: bold;
 }
-
-
 
 
 @media (min-width: 768px) {
@@ -509,10 +359,6 @@ a {
 /* --- SEPARADOR NOSOTROS --- */
 
 
-article{
-    border: 2px solid black;
-}
-
 .nos-article{
     padding: 30px;
 }
@@ -529,28 +375,6 @@ justify-content: center;
 }
 
 
-/* .nosotros {
-    width: 100%;
-    display: flex;
-    
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    gap: 50px;
-    background-color: beige;
-  
-
-
-} */
-
-/* .nosotros__video{
-    display: flex;
-    
-    justify-content: center;
-    
-    height: 300px;
-    
-}
 
 .nosotros__article{
     display: flex;
@@ -603,16 +427,11 @@ justify-content: center;
         padding: 50px;
         gap: 50px;
         background-color: beige;
-      justify-content: space-around;
+        justify-content: space-around;
     
     
     }
 
-
-
-    
-
- */
 
 
 
@@ -660,15 +479,6 @@ justify-content: center;
     align-items: center;
 
 }
-
-
-
-
-
-
-
-
-
 
 
 /* --- FIN SEPARADOR CONTACTO --- */
