@@ -149,9 +149,6 @@ a {
 }
 
 
-
-
-
 /* --- HERO SECTION --- */
 
 .hero {
@@ -167,15 +164,17 @@ a {
 
 .hero__text {
     text-align: center;
-
     background-color: rgba(218, 165, 32, 0.296);
-    /* padding: 20px; */
-    /* border-radius: 20px; */
     width: 360px;
     height: 360px;
     border-radius: 50%;
     padding-top: 70px;
+}
 
+@media (min-width: 358px){
+    .hero__text{
+    padding-top: 100px;
+}
 }
 
 .hero__text h2 {
@@ -192,15 +191,7 @@ a {
 }
 
 
-
-
 /* --- SEPARADOR ELEGIRNOS --- */
-
-
-
-
-
-
 
 
 .elegirnos__titulo {
@@ -217,7 +208,6 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* align-items: center; */
     background-color: beige;
 
 
