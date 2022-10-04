@@ -282,30 +282,20 @@ a {
 
 } */
 
-.footer {
 
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
-    
-    /* justify-content: space-around; */
-    
-    /* align-content: center;
-    align-items: center; */
-    
-    /* padding: 50px;
-    gap: 10px;
-     */
-    /* background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgb(220, 183, 104) 100%); */
-
-}
 
 .bg-cremaradiante{
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgb(220, 183, 104) 100%);
 }
 
+.bg-beige{
+    background-color: beige;
+}
+
+.bg-fondo-titulos{
+    background-color: rgba(218, 165, 32, 0.296);
+}
 
 .footer__boton__form {
     color: #694f3d;

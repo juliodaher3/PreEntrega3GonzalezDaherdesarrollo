@@ -44,61 +44,56 @@
 
     <!-- SECCION  MAIN-->
 
-    <section class="contacto">
+<main class="bg-beige" >
 
+<h2 class="elegirnos__titulo bg-fondo-titulos">FORMULARIO DE CONTACTO</h2>
 
-
-        <h2>FORMULARIO DE CONTACTO</h2>
-
-
-        <div class="formulario">
-            <FORM action="">
-
-                
-                <div class="formulario_columna">
-                
-                <label for="nombre-usuario">Nombre y apellido</label>
-                <input type="text" id="nombre-usuario" placeholder="Ej: Melchor Pere" required>
-
-
-                <label for="email">Correo electronico</label>
-                <input type="email" id="email" placeholder="Ej motomami@hotmail.com" required>
-
-                <select name="" id="">
-
-                    <option value="sugerencia">Sugerencia</option>
-                    <option value="Reclamo">Reclamo</option>
-                    <option value="Administrativa">Administrativa</option>
-                    <option value="Otro">Otro</option>
-                </select>
-
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-
-                <label for="">Acepta terminos y condiciones?</label>
-
-                <input type="checkbox" value="acepta-terminos" required>
-
-                <label for="">Desea recibir noticias?</label>
-
-                <label for="">SI</label>
-                <input type="radio" name="contacto" value="contacto-si" required>
-
-                <label for="">NO</label>
-                <input type="radio" name="contacto" value="contacto-no" required>
-
-                <input type="submit" value="Enviar">
-
+    <div class="container mt-5 ">
+        <form class="row  g-3 ">
+            
+            <div class="col-12 col-md-6">
+                <label for="username" class="form-label">Nombre de contacto</label>
+                <input type="text" class="form-control" name="" id="username" placeholder="ej Melchor Pere" required> 
+            </div>
+            
+            <div class="col-12 col-md-6">
+                <label for="emailinput" class="form-label">Email</label>
+                <input type="email" class="form-control" name="" id="emailinput" placeholder="ej bebitobellako@gmail.com" required>
             </div>
 
-            </FORM>
+            <div class="col-md-6">
+                <label for="select">Motivo de su consulta</label>
+                
+            <select class="form-select" aria-label="Motivo de consulta" id="select">
+                <option selected>Elija uno</option>
+                <option value="1">Sugerencia</option>
+                <option value="2">Reclamo</option>
+                <option value="3">Administrativa</option>
+                <option value="4">Otro</option>
+              </select>
+            </div>
 
-        </div>
+
+    <div class="col-12 col-md-8">
+        <label for="comments" class="form-label">Comentarios? Consultas?</label>
+        <textarea name="" id="comments" rows="3" class="form-control"></textarea>
+    </div>
 
 
-    </section>
+            <div class="col-12">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="" id="checkterms">
+                    <label for="checkterms" class="form-check-label">Acepto terminos y condiciones</label>
+                </div>
+            </div>
 
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
 
-
+        </form>
+    </div>
+</main>
 
 
     <!--  SECCION FOOTER -->
