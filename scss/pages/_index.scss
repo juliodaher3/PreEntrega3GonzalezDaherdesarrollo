@@ -1,0 +1,81 @@
+.hero {
+    height: 800px;
+    background-image: url(../assets/grano_cafe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__text {
+    text-align: center;
+    background-color: rgba(218, 165, 32, 0.296);
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    padding-top: 70px;
+    h2{
+        color: black;
+    font-size: 2.5rem;
+    padding: 15px;
+    }
+    h3{
+        color: #694f3d;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 2.20rem;
+    }
+    
+}
+
+
+
+// SEPARADOR HERO Y ELEGIRNOS
+
+.elegirnos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: beige;
+    &__titulo{
+    background-color: rgba(218, 165, 32, 0.296);
+    color: #694f3d;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: normal;
+    }
+    &__contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+
+
+.tarjeta {
+    width: 200px;
+    height: 300 px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 17px;
+    &__imagen{
+        width: 100px;
+    height: 100px;
+    }
+}
+
+
+
+
+
+

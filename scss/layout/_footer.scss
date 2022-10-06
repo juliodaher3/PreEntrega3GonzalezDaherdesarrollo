@@ -1,0 +1,10 @@
+.footer__boton__form {
+    color: #694f3d;
+    font-weight: bold;
+    text-decoration: underline;
+    transition-property: all;
+    transition-duration: 350ms;
+    &:hover{
+        color: goldenrod;
+    }
+}

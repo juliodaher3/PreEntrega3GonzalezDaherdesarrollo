@@ -402,8 +402,7 @@ justify-content: center;
 
 
 @media (min-width: 768px){
-
-    .nosotros {
+.nosotros {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -411,9 +410,7 @@ justify-content: center;
         gap: 50px;
         background-color: beige;
         justify-content: space-around;
-    
-    
-    }
+}
 
 
 
