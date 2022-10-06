@@ -1,15 +1,28 @@
-header {
+
+.header {
     background-color: rgba(218, 165, 32, 0.697);
     padding: 15px;
-    position: absolute;
     width: 100vw;
+    text-align: center;
+    color: black;
+    &a{
+        color: black;
+    }
+    
 }
 
 .header-dos {
-    background-color: rgba(218, 165, 32, 0.697);
+    background-color: rgba(218, 165, 32, 0.333);
     padding: 15px;
     width: 100vw;
-    position: static;
+    position: absolute;
+    text-align: center;
+    color: black;
+    &a{
+        color: black;
+    }
+    
+    
 }
 
 .header__title {
@@ -18,19 +31,18 @@ header {
     a{
         color: black;
     }
-
 }
 
 .header__logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    img{
+    img {
         padding: 5px;
-    width: 70px;
-    &:hover{
-        transform: scale(1.2);
-    }
+        width: 70px;
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 }
 
@@ -38,35 +50,18 @@ header {
     font-weight: inherit;
     color: black;
     font-size: 1.3rem;
+
     transition-property: all;
     transition-duration: 350ms;
-    &:hover{
+    &.header__nav a:hover {
         color: beige;
     }
 }
 
-@media (min-width: 768px) {
 
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 
-    .header-dos {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 
-    .header__nav {
-        width: 50%;
-    }
 
-    .header__nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-right: 50px;
-    }
-}
+
+
+
