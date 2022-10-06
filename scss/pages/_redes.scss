@@ -1,0 +1,62 @@
+.redes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding-bottom: 40px;
+    &__title {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-style: italic;
+        text-decoration: underline;
+        text-decoration-color: #694f3d;
+        color: black;
+        padding-top: 15px;
+    }
+    &__contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        gap: 40px;
+    }
+    &__tarjeta{
+    
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 10px;
+        border-radius: 15px;
+        width: 200px;
+        
+    }
+    &__img {
+    
+        border-radius: 15px;
+        width: 100%;
+    
+    }
+    &__boton{
+    
+        padding: 13px 8px;  
+        text-align: center;
+        color: black;
+        border-radius: 20px;
+        font-weight: 600;
+        &:hover{
+            color: #694f3d;    
+            transition-property: all;
+            transition-duration: 150ms;
+            transform: scale(1.2);
+            font-weight: bold;
+        }
+    }
+
+}
+
+
+
+
+
