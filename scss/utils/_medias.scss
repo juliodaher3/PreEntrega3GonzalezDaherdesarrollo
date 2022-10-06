@@ -1,0 +1,87 @@
+@media (min-width: 768px){
+    .nosotros {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 50px;
+            gap: 50px;
+            background-color: beige;
+            justify-content: space-around;
+                }
+            }
+
+
+            @media (min-width: 768px) {
+
+                .elegirnos__contenedor {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+            
+                }
+            }
+
+            @media (min-width: 358px){
+                .hero__text{
+                padding-top: 100px;
+            }
+            }
+
+
+            @media (min-width: 768px) {
+
+                .redes__contenedor {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    height: 600px;
+                }
+            
+                .redes__tarjeta{       
+                    display: flex;
+                    flex-direction: column;    
+                    box-shadow: 0 0 10px;
+                    border-radius: 15px;    
+                    width: 300px;        
+                }
+            
+                .redes__img {
+                
+                    border-radius: 15px;
+                    width: 100%;
+                
+                }
+            
+            
+                .redes__title {
+                    text-align: center;
+                }
+            
+            }
+
+            @media (min-width: 768px) {
+
+                .header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            
+                .header-dos {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            
+                .header__nav {
+                    width: 50%;
+                }
+            
+                .header__nav ul {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    padding-right: 50px;
+                }
+            }
